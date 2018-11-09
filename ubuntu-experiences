@@ -1,0 +1,7 @@
+Ubuntu experiences:
+
+- Change lock screen: /etc/lightdm/lightdm.conf ( you may need to change some other files because it bases on them)
+
+- Change splash screen : /usr/share/plymouth/themes/default.plymouth. Plymouth control your screen when you start your computer.
+
+I have written a long story about how I fix my computer when it contains three desktop environments : Ubuntu, Xubuntu, Lubuntu which I setup chronologically (I decided to use Lubuntu but my lock screen is Ubuntu, and the splash screen is Xubuntu. It really wastes a lot of time to fix. ). But my story has been disappeared since my stupid and wrong Ctrl + C :) . 
