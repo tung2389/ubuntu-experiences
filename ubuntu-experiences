@@ -2,6 +2,8 @@ Ubuntu experiences (when I messed up my computer with three desktop environments
 
 - Change lock screen: /etc/lightdm/lightdm.conf (lightdm is the display manager of ubuntu. You may need to change some other files because it bases on them)
 
-- Change splash screen : /usr/share/plymouth/themes/default.plymouth. Plymouth controls your screen when you start or turn off your computer.
+- Change splash screen : /usr/share/plymouth/themes/default.plymouth. Plymouth controls your screen when you star-t or turn off your computer.
 
 - "grep" and "find" are very useful commands to delete all remnants of old desktop environments,
+
+- Change the file /etc/acpi/powerbtn.sh if you want to change the option when push shutdown button. Ex: put a command like "shutdown -h now" in the beginning of the file.
