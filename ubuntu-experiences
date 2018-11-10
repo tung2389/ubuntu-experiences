@@ -1,7 +1,7 @@
-Ubuntu experiences:
+Ubuntu experiences (when I messed up my computer with three desktop environments: Ubuntu, Xubuntu and Lubuntu) :
 
-- Change lock screen: /etc/lightdm/lightdm.conf ( you may need to change some other files because it bases on them)
+- Change lock screen: /etc/lightdm/lightdm.conf (lightdm is the display manager of ubuntu. You may need to change some other files because it bases on them)
 
-- Change splash screen : /usr/share/plymouth/themes/default.plymouth. Plymouth control your screen when you start your computer.
+- Change splash screen : /usr/share/plymouth/themes/default.plymouth. Plymouth controls your screen when you start or turn off your computer.
 
-I have written a long story about how I fixed my computer when it contained three desktop environments : Ubuntu, Xubuntu, Lubuntu which I had set up chronologically (I really messed up my computer.I finally decided to use Lubuntu but my lock screen is Ubuntu, and the splash screen is Xubuntu. It really wasted a lot of time to fix. I even tried to use "find" command to delete all xfce4 or xubuntu ... ). But my story has been disappeared since my stupid and wrong Ctrl + C :) . 
+- "grep" and "find" are very useful commands to delete all remnants of old desktop environments,
