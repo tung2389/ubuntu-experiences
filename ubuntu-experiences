@@ -9,3 +9,7 @@ Ubuntu experiences (when I messed up my computer with three desktop environments
 - Change the file /etc/acpi/powerbtn.sh or /etc/systemd/logind.conf if you want to change the option when push shutdown button. Ex: put a command like "shutdown -h now" in the beginning of the file.
 
 - Change default sessions : /var/lib/AccountsService/users/username
+
+- Change libre office and fonts:
+Tools > Options > LibreOffice Writer > Basic Fonts (Western)
+/usr/local/share/fonts
