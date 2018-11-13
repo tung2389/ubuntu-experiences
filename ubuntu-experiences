@@ -13,3 +13,6 @@ Ubuntu experiences (when I messed up my computer with three desktop environments
 - Change libre office and fonts:
 Tools > Options > LibreOffice Writer > Basic Fonts (Western)
 /usr/local/share/fonts
+
+- Change display brightness :
+/sys/class/backlight/intel_backlight
