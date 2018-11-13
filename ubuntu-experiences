@@ -15,4 +15,4 @@ Tools > Options > LibreOffice Writer > Basic Fonts (Western)
 /usr/local/share/fonts
 
 - Change display brightness :
-/sys/class/backlight/intel_backlight
+/sys/class/backlight/intel_backlight/brightness
