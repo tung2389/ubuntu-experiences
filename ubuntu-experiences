@@ -16,3 +16,8 @@ Tools > Options > LibreOffice Writer > Basic Fonts (Western)
 
 - Change display brightness :
 /sys/class/backlight/intel_backlight/brightness
+
+- Disable a device in your computer :
+xinput list: list all your device and their id.
+xinput set-prop DEVICEID "Device Enabled" 0: to turn off
+xinput set-prop DEVICEID "Device Enabled" 1: to turn on
