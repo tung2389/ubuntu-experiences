@@ -21,3 +21,5 @@ Tools > Options > LibreOffice Writer > Basic Fonts (Western)
 xinput list: list all your device and their id.
 xinput set-prop DEVICEID "Device Enabled" 0: to turn off
 xinput set-prop DEVICEID "Device Enabled" 1: to turn on
+- Disable touchpad when typing:
+syndaemon -d -t
