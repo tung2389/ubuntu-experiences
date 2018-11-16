@@ -22,4 +22,5 @@ xinput list: list all your device and their id.
 xinput set-prop DEVICEID "Device Enabled" 0: to turn off
 xinput set-prop DEVICEID "Device Enabled" 1: to turn on
 - Disable touchpad when typing:
+/home/your_usr_name/.config/your_session/your_desktop_environment/autostart
 syndaemon -d -t
