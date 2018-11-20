@@ -31,3 +31,6 @@ syndaemon -d -t
 - Install some Microsoft regular fonts:
 sudo apt install ttf-mscorefonts-installer
 sudo fc-cache -f -v
+
+- Restart lightdm:
+sudo service lightdm restart
