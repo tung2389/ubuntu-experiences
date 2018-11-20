@@ -27,3 +27,7 @@ xinput set-prop DEVICEID "Device Enabled" 1: to turn on
 - Disable touchpad when typing:
 /home/your_usr_name/.config/your_session/your_desktop_environment/autostart
 syndaemon -d -t
+
+- Install some Microsoft regular fonts:
+sudo apt install ttf-mscorefonts-installer
+sudo fc-cache -f -v
