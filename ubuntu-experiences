@@ -34,3 +34,6 @@ sudo fc-cache -f -v
 
 - Restart lightdm:
 sudo service lightdm restart
+
+- Shorcut for deepin control center:
+dbus-send --print-reply --dest=com.deepin.dde.ControlCenter /com/deepin/dde/ControlCenter com.deepin.dde.ControlCenter.Toggle
