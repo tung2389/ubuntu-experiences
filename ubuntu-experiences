@@ -37,3 +37,5 @@ sudo service lightdm restart
 
 - Shorcut for deepin control center:
 dbus-send --print-reply --dest=com.deepin.dde.ControlCenter /com/deepin/dde/ControlCenter com.deepin.dde.ControlCenter.Toggle
+
+- Fix some bugs about shorcut of deepin in /usr/share/applications ( must mutate by root user with nano or something like that).
