@@ -39,3 +39,6 @@ sudo service lightdm restart
 dbus-send --print-reply --dest=com.deepin.dde.ControlCenter /com/deepin/dde/ControlCenter com.deepin.dde.ControlCenter.Toggle
 
 - Fix some bugs about shorcut of deepin in /usr/share/applications ( must mutate by root user with nano or something like that).
+
+- Update default version of gcc:
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-8 1
