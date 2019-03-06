@@ -41,4 +41,7 @@ dbus-send --print-reply --dest=com.deepin.dde.ControlCenter /com/deepin/dde/Cont
 - Fix some bugs about shorcut of deepin in /usr/share/applications ( must mutate by root user with nano or something like that).
 
 - Update default version of gcc:
-sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-8 1
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-8 
+
+- gdbus error org authentication required (when suspend):
+https://www.reddit.com/r/xubuntu/comments/8w23gu/how_to_fix_the_suspend_on_inactivity/
