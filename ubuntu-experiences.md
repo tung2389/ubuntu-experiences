@@ -45,3 +45,16 @@ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-8
 
 - gdbus error org authentication required (when suspend):
 https://www.reddit.com/r/xubuntu/comments/8w23gu/how_to_fix_the_suspend_on_inactivity/
+
+- If everytime when you try to suspend your computer, it requires password (authentication required), then you can turn it off by:
+
++ Open the file /usr/share/polkit-1/actions/org.freedesktop.login1.policy with root user.
++ find the line: <action id="org.freedesktop.login1.suspend">
++ Below this line, check if it is same to these ( if not, change it) 
+```
+<defaults>
+    <allow_any>yes</allow_any>
+    <allow_inactive>yes</allow_inactive>
+    <allow_active>yes</allow_active>
+</defaults>
+```
